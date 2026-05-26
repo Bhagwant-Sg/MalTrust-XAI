@@ -12,4 +12,4 @@ def generate_shap_explanations(model, X_test):
     shap.summary_plot(shap_values, X_test, show=False)
     plt.savefig("results/figures/shap_summary.png")
     plt.close()
-    print("✅ SHAP explanations saved.")
+    print(" SHAP explanations saved.")
