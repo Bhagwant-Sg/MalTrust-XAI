@@ -12,7 +12,7 @@ def main():
     args = parser.parse_args()
 
     EXPERIMENT_CONFIG["run_mode"] = args.mode
-    print(f"🚀 Starting MalTrust-XAI in {args.mode.upper()} mode...")
+    print(f" Starting MalTrust-XAI in {args.mode.upper()} mode...")
 
     # Step 1: Load Data
     train_files, test_files = load_train_files()
@@ -23,7 +23,7 @@ def main():
     # Step 3: Generate Visualizations & Reports
     save_final_visualizations(results)
 
-    print("✅ MalTrust-XAI Pipeline Completed Successfully!")
+    print(" MalTrust-XAI Pipeline Completed Successfully!")
 
 if __name__ == "__main__":
     main()
