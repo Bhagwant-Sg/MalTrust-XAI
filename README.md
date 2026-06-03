@@ -1,6 +1,5 @@
 # MalTrust-XAI
-
-**An Explainable Hybrid Artificial Intelligence Framework for Malware Detection with Blockchain-Assisted Integrity Validation**
+**If you want to run the entire framework in the single notebook then use the *framework-development-20-05-2026.ipynb* this file, then you just need to run the cell and wait for the model to process, if you want to debug the entire framework step by step and check the entire analysis fromteh intial stage to the final stage they can use the "MalTrust-XAI" folder as in that folder the code is breakdown in the chunks and modules for the better understanding. {Note: For the ease of implementation and computation effective use the Kaggle Notebook, and use the EMBER2024, and BODMASS Dataset as input all the experiment will run smoothly.}**
 
 ---
 
